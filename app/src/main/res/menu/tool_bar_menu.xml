@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/goBack"
+        android:icon="@drawable/ic_arrow_back"
+        android:title="Go Back"
+        android:contentDescription="Go on back page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/goForward"
+        android:icon="@drawable/ic_arrow_forward"
+        android:title="Go Forward"
+        android:contentDescription="Go on forward page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="refresh"
+        android:contentDescription="Reload the page"
+        app:showAsAction="ifRoom" />
+
+</menu>
