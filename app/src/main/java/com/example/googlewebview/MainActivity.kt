@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         binding?.WebView?.settings?.javaScriptEnabled = true
         binding?.WebView?.settings?.setSupportZoom(true)
         binding?.WebView?.isDrawingCacheEnabled = true
+        binding?.WebView?.settings?.mediaPlaybackRequiresUserGesture = false
         binding?.WebView?.webViewClient = object : WebViewClient(){
             override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
                 binding?.pgBar?.visibility = View.VISIBLE
